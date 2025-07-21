@@ -1,4 +1,4 @@
-//compite the numbe
+//compute the number
 function compite(num1,num2){
 	if(num1==num2){
 		return ( "true" );
@@ -36,7 +36,7 @@ function grade(n){
   	else if(100>=n && n>=90){
 		return ( "A" );
 		}
-      else if(89<=n && n>=80){
+        else if(89<=n && n>=80){
 		return ( "B " );
 		}
   	else{
