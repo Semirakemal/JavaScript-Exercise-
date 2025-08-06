@@ -1,0 +1,24 @@
+const passByValue=document.getElementById("value");
+const passByReferenc=document.getElementById("reference")
+const message1=document.getElementById("first");
+const message2=document.getElementById("second")
+//pass by value
+let age = 22;
+function student1(age2){
+  age2=23;
+}
+passByValue.addEventListener("click",function(){
+  student1(age), first.textContent=age
+});
+//pass by reference
+let object={ name:"khalid",grade:3.45}
+function student2(object1){
+  object1.name="Oumer"
+  
+}
+passByReferenc.addEventListener("click",function(){
+student2(object),second.textContent=object.name
+});
+
+
+
