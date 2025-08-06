@@ -1,0 +1,19 @@
+const button=document.getElementById("value");
+const input1=document.getElementById("username");
+const input2=document.getElementById("password")
+const message=document.getElementById("first")
+
+
+button.addEventListener("click",function shortCircuit(register){
+   const user=input1.value
+   const pass=input2.value
+   if(!user || !pass){
+     message.textContent="username and password missed"
+   }else if(user==="semira" && pass==="1234"){
+      message.textContent="loggin successfully";
+   }else{
+      message.textContent="username is not correct";
+   }
+});
+
+

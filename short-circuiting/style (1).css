@@ -1,0 +1,18 @@
+body {
+    font-size: 30px;
+    font-family: serif;
+    background-color: lightyellow;
+    
+}
+button{
+    margin:10px;
+    padding: 60px,30px;
+    border-radius: 5px;
+    background-color:blue;
+    
+}
+input{
+    background-color:lightgrey;
+    margin:15px;
+   
+}
