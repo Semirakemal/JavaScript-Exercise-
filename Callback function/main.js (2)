@@ -1,0 +1,11 @@
+const buttonName=document.getElementById("call");
+const message=document.getElementById("Message")
+function callBack(name){
+  message.textContent=("السلام عليكم ورحمة الله وبركاته"+ name+"👋");
+  
+}
+function callBack2(){
+  const username="Semira";
+  callBack(username);
+}
+callBack2=addEventListener("click",callBack2)
