@@ -1,0 +1,31 @@
+const button1=document.getElementById("value");
+const button2=document.getElementById("value2");
+const button3=document.getElementById("value3")
+const message=document.getElementById("first")
+
+const students=[
+   {name:"fatuma",grade:50},
+   {name:"kedija", grade:100},
+   {name:"Halima", grade:100},
+   {name:"Hubah", grade:43},
+   
+]
+button1.addEventListener("click",function (){
+const double =students.map(function (num){
+   return num.grade *2;
+});
+message.textContent=JSON.stringify(double);
+});
+button2.addEventListener("click", function(){
+   const passed=students. filter(function(user){
+      return user.grade>=50;
+   });
+message.textContent=JSON.stringify(passed);
+});
+button3.addEventListener("click", function(){
+   const top=students.find(function(users){
+      return users.grade===100;
+   });
+
+message.textContent=JSON.stringify(top);
+});
