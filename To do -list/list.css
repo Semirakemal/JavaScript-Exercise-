@@ -1,0 +1,72 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  width: auto;
+  display: flex;
+  
+}
+
+.card{
+  border-radius: 15%;
+  padding:10%;
+  box-shadow: 7px, 6px rgba(0,0,0,0,0.1);
+  background-color: dimgrey;
+  width: auto;
+  height: auto;
+  margin: 20%;
+  color: white;
+  font-size: 40px;
+  
+  
+  
+}
+
+input{
+  background-color: white;
+  border-radius: 55px;
+  padding: 5%;
+  height: auto;
+  width: 70%;
+  font-size: 32px;
+  color: black;
+  position: relative;
+  
+}
+button{
+  background-color: blueviolet;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+li {
+ padding: 13px;
+ background-color: blue;
+ margin: 4%;
+ border-radius: 20px;
+
+}
+@media only screen and (max-width: 768px) {
+  input{
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    padding: 10px;
+    
+    
+  }
+  li{
+    padding: 20px;
+  }
+  
+  button{
+    padding: 5px;
+    font-size: 5px;
+  }
+
+.card{
+  font-size:15px;
+}
+}
